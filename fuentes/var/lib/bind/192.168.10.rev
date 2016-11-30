@@ -1,0 +1,11 @@
+$ttl 38400
+10.168.192.in-addr.arpa.	IN	SOA	servidor.profesor.2smr.net. usuario.profesor.2smr.net. (
+			1476961397
+			120
+			240
+			360
+			38400 )
+10.168.192.in-addr.arpa.	IN	NS	servidor.profesor.2smr.net.
+1.10.168.192.in-addr.arpa.	IN	PTR	servidor.profesor.2smr.net.
+3.10.168.192.in-addr.arpa.	IN	PTR	linux.profesor.2smr.net.
+2.10.168.192.in-addr.arpa.	IN	PTR	winxp.profesor.2smr.net.

@@ -1,0 +1,11 @@
+$ttl 38400
+profesor.2smr.net.	IN	SOA	servidor.profesor.2smr.net. usuario.profesor.2smr.net. (
+			1476961514
+			120
+			120
+			360
+			38400 )
+profesor.2smr.net.	IN	NS	servidor.profesor.2smr.net.
+servidor.profesor.2smr.net.	IN	A	192.168.10.1
+linux.profesor.2smr.net.	IN	A	192.168.10.3
+winxp.profesor.2smr.net.	IN	A	192.168.10.2

@@ -1,0 +1,22 @@
+$ttl 38400
+2smr.net.	IN	SOA	profesor.2smr.net. usuario.profesor.2smr.net. (
+			1476779974
+			240
+			3600
+			480
+			38400 )
+2smr.net.	IN	NS	profesor.2smr.net.
+profesor.2smr.net.	IN	A	192.168.5.60
+PC01.2smr.net.	IN	A	192.168.5.61
+pc02.2smr.net.	IN	A	192.168.5.62
+www.2smr.net.	IN	CNAME	servidor.2smr.net.
+luis.2smr.net.	IN	CNAME	PC01.2smr.net.
+pc03.2smr.net.	IN	A	192.168.5.63
+pc04.2smr.net.	IN	A	192.168.5.64
+pc05.2smr.net.	IN	A	192.168.5.65
+pc06.2smr.net.	IN	A	192.168.5.66
+pc07.2smr.net.	IN	A	192.168.5.67
+profesor.2smr.net.	IN	RP	usuario.profesor.2smr.net. PersonaResponsable
+ServidorPrueba.2smr.net.	IN	TXT	"Servidor de prueba para el dominio 2smr.net"
+pc08.2smr.net.	IN	A	192.168.5.68
+servidor.2smr.net.	IN	A	192.168.5.60

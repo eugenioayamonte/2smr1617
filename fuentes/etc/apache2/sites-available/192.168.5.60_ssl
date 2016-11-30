@@ -1,0 +1,15 @@
+<VirtualHost 192.168.5.60:443>
+	ServerAdmin usuario@localhost
+	DocumentRoot /var/www/192.168.5.60_ssl
+
+	#COnfiguracion SSL
+	SSLEngine on
+	SSLCertificateFile /etc/apache2/ssl/profesor.crt
+	SSLCertificateKeyFile /etc/apache2/ssl/profesor.key
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+

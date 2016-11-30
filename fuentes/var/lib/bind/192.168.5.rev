@@ -1,0 +1,17 @@
+$ttl 38400
+5.168.192.in-addr.arpa.	IN	SOA	profesor.2smr.net. usuario.profesor.2smr.net. (
+			1476780491
+			240
+			3600
+			480
+			38400 )
+5.168.192.in-addr.arpa.	IN	NS	profesor.2smr.net.
+60.5.168.192.in-addr.arpa.	IN	PTR	profesor.2smr.net.
+62.5.168.192.in-addr.arpa.	IN	PTR	pc02.2smr.net.
+61.5.168.192.in-addr.arpa.	IN	PTR	PC01.2smr.net.
+63.5.168.192.in-addr.arpa.	IN	PTR	pc03.2smr.net.
+64.5.168.192.in-addr.arpa.	IN	PTR	pc04.2smr.net.
+65.5.168.192.in-addr.arpa.	IN	PTR	pc05.2smr.net.
+66.5.168.192.in-addr.arpa.	IN	PTR	pc06.2smr.net.
+67.5.168.192.in-addr.arpa.	IN	PTR	pc07.2smr.net.
+68.5.168.192.in-addr.arpa.	IN	PTR	pc08.2smr.net.

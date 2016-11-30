@@ -1,0 +1,10 @@
+<VirtualHost 192.168.5.60:80>
+	ServerName www.2smr.net
+	ServerAdmin usuario@localhost
+	DocumentRoot /var/www/192.168.5.60_www.2smr.net
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
